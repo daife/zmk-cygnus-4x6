@@ -11,11 +11,6 @@
             bindings = <&tog 3>;
             key-positions = <48 53>;
         };
-
-        momentary_layer_1 {
-            bindings = <&mo 1>;
-            key-positions = <49 50>;
-        };
     };
 
     behaviors {
@@ -96,7 +91,7 @@
 &trans  &trans    &trans         &trans     &trans           &trans         &trans         &trans    &trans     &trans     &trans    &trans
 &trans  &kp EXCL  &kp AT         &kp HASH   &hmr LG(R) DLLR  &kp PRCNT      &kp CARET      &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &trans
 &trans  &trans    &kp LG(LS(S))  &kp LG(D)  &trans           &kp LG(DOT)    &kp PG_UP      &kp DEL   &kp UP     &kp LG(L)  &none     &none
-&trans  &trans    &kp LG(X)      &trans     &kp LG(V)        &trans         &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
+&trans  &trans    &kp LG(X)      &trans     &kp LG(V)        &tog 1         &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
                                  &trans     &trans           &trans         &trans         &trans    &trans
             >;
         };
