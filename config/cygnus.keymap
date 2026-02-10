@@ -90,8 +90,8 @@
             bindings = <
 &trans            &kp F1    &kp F2         &kp F3     &kp F4           &kp F5           &kp F6         &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
 &hmr TILDE GRAVE  &kp EXCL  &kp AT         &kp HASH   &hmr LG(R) DLLR  &kp PRCNT        &kp CARET      &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &kp F12
-&trans            &trans    &kp LG(LS(S))  &kp LG(D)  &trans           &kp LG(DOT)      &kp PG_UP      &kp DEL   &kp UP     &kp LG(L)  &none     &none
-&trans            &trans    &kp LG(X)      &trans     &kp LG(V)        &tog 1           &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
+&trans            &none     &kp LG(LS(S))  &kp LG(D)  &none            &kp LG(DOT)      &kp PG_UP      &kp DEL   &kp UP     &kp LG(L)  &none     &none
+&trans            &none     &kp LG(X)      &none      &kp LG(V)        &tog 1           &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
                                            &trans     &trans           &kp LG(SPACE)    &trans         &trans    &trans
             >;
         };
