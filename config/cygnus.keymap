@@ -88,11 +88,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans            &kp F1     &kp F2                &kp F3     &kp F4            &kp F5           &kp F6         &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
-&hmr TILDE GRAVE  &kp EXCL   &kp AT                &kp HASH   &hmr LG(R) DLLR   &kp PRCNT        &kp CARET      &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &kp F12
-&trans            &kp LC(A)  &hmr LG(LS(S)) LC(S)  &kp LG(D)  &kp LC(LS(S))     &kp LG(DOT)      &kp PG_UP      &kp DEL   &kp UP     &kp LG(L)  &none     &none
-&trans            &none      &hmr LG(X) LC(X)      &none      &hmr LG(V) LC(V)  &none            &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
-                                                   &trans     &trans            &kp LG(SPACE)    &kp LG(SPACE)  &trans    &trans
+&trans            &kp F1     &kp F2                &kp F3                &kp F4            &kp F5           &kp F6         &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
+&hmr TILDE GRAVE  &kp EXCL   &kp AT                &kp HASH              &hmr LG(R) DLLR   &kp PRCNT        &kp CARET      &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &kp F12
+&trans            &kp LC(A)  &hmr LG(LS(S)) LC(S)  &kp LG(D)             &kp LC(LS(S))     &kp LG(DOT)      &kp PG_UP      &kp DEL   &kp UP     &kp LG(L)  &none     &none
+&trans            &none      &hmr LG(X) LC(X)      &hmr LC(LS(C)) LC(C)  &hmr LG(V) LC(V)  &none            &kp PAGE_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT  &none     &trans
+                                                   &trans                &trans            &kp LG(SPACE)    &kp LG(SPACE)  &trans    &trans
             >;
         };
 
